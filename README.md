@@ -1,1 +1,1 @@
-# CNNmnist
+# Simple Convolutional Neural Network for MNIST
