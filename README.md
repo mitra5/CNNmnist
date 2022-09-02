@@ -16,7 +16,7 @@ from keras.layers.convolutional import MaxPooling2D
 from keras.utils import np_utils
 from keras import backend as K
 K.set_image_data_format('channels_last')
-# fix random seed for reproducibility
+# fix random seed for reproducibility. we gave seed=7 in order to initiate weight which would be same result when we repeat the model
 seed = 7
 numpy.random.seed(seed)
 # load data
